@@ -8,7 +8,7 @@ public class soal3 {
         int zee= oke.nextInt();
         System.out.print("jumlah barang yang di jual; ");
         int sip =oke.nextInt();
-        System.out.println("sebuah toko memiliki "+zee+" barang\nsetiap minggu mereka menjual "+sip+" barang\nsisa barang di gudang setelah satu minggu adalah:"+(zee-sip));
+        System.out.println("sebuah toko memiliki "+zee+" barang\nsetiap minggu mereka menjual "+sip+" barang\nsisa barang di gudang setelah satu minggu adalah:"+(zee-=sip));
     }
     
 }
