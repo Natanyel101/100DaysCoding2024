@@ -8,8 +8,8 @@ public class soal1 {
         int zee=oke.nextInt();
         System.out.print("jumlah nilai ujian kedua: ");
         int sip=oke.nextInt();
-        int selisih =zee-=sip;
-        System.out.println("jadi selisih dari nilai pertama "+zee+" dan nilai kedua "+sip+" adalah "+selisih);
+        zee-=sip;
+        System.out.println("jadi selisih dari nilai pertama dan nilai kedua adalah: "+zee);
     }
     
 }
