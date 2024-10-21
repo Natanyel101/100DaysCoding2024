@@ -19,8 +19,5 @@ public class day49 {
             System.out.println("my name is NIEL");
             System.out.println("my hoby is coding");
         }
-        else{
-            System.out.println(" nama tidak sesuai..!!\n silahkan coba lagi");
-        }
     } 
 }
