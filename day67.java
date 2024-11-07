@@ -1,15 +1,14 @@
 import java.util.*;
 public class day67 {
-    public static void plus(int a, int n) {
+    public  void plus(int a, int n) {
         int h = a + n;
         System.out.println("Hasil : " + h);
     }
-        public static void min(int a, int n){
+        public void min(int a, int n){
             int ha= a - n;
             System.out.println("hasil : "+ha);
         }
-    
-    public static void main(String[] args) {
+    public void ok(){
         Scanner oke=new Scanner (System.in);
         System.out.print("masukkan angka pertama: ");
         int a=oke.nextInt();
@@ -22,11 +21,16 @@ public class day67 {
         String b=oke.next();
         
         if (b.equals("+")||b.equals("1")){
-            plus (a,n);
+            plus(a,n);
         }
         else if(b.equals("-") || b.equals("2")){
-            min (a, n);
+           min(a, n);
         }
+    }
+    public static void main(String[] args) {
+        day67 z=new day67();
+        
+        z.ok();
     }
     
 }
